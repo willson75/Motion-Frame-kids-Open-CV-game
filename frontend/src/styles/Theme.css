@@ -1,0 +1,16 @@
+html[data-theme='light'] { --ink:#15213a; --muted:#60708d; --paper:#eef3fb; --surface:#ffffff; --surface-raised:#f5f8ff; --line:rgba(47,72,119,.18); --blue:#1976d2; --violet:#6c55d9; --pink:#d84f99; --lime:#168a62; --amber:#ae6814; --bg-card:#fff; --bg-dark:#e6edf8; --bg-card-hover:#eaf1fc; --border-card:rgba(47,72,119,.18); --text-primary:#15213a; --text-secondary:#60708d; --text-muted:#60708d; --accent-purple:#6c55d9; --accent-amber:#ae6814; --accent-cyan:#1976d2; }
+html[data-theme='light'] body { background:radial-gradient(circle at 88% -10%,#dce6ff 0,transparent 26rem),radial-gradient(circle at 0 30%,#d9f1ff 0,transparent 32rem),var(--paper); }
+html[data-theme='light'] body:before { opacity:.38; }
+html[data-theme='light'] .navbar { background:rgba(244,248,255,.78); }
+html[data-theme='light'] .utility-btn,html[data-theme='light'] .camera-status-pill,html[data-theme='light'] .sensitivity-pill,html[data-theme='light'] .player-avatar-btn { background:rgba(255,255,255,.76); }
+html[data-theme='light'] .hero-note,html[data-theme='light'] .setting-strip,html[data-theme='light'] .library-strip { background:rgba(255,255,255,.66); }
+html[data-theme='light'] .featured-card { background:linear-gradient(125deg,#eef4ff,#fff 55%,#e8f3ff); box-shadow:0 20px 46px rgba(45,75,130,.12); }
+html[data-theme='light'] .featured-content p { color:#53637e; }
+html[data-theme='light'] .featured-visual { background:linear-gradient(145deg,rgba(255,255,255,.85),rgba(202,224,255,.62)); }
+html[data-theme='light'] .game-card,html[data-theme='light'] .leaderboard-card { background:linear-gradient(145deg,rgba(255,255,255,.96),rgba(242,247,255,.98)); }
+html[data-theme='light'] .game-card:hover { box-shadow:0 17px 30px rgba(35,68,124,.14); }
+html[data-theme='light'] .modal-overlay { background:rgba(19,33,58,.36); }
+html[data-theme='light'] .modal-content { background:linear-gradient(145deg,#fff,#edf4ff); box-shadow:0 22px 70px rgba(24,52,102,.24); }
+html[data-theme='light'] .modal-input { background:#fff; }
+html[data-theme='light'] .game-viewport { background:#09111f; }
+html[data-theme='light'] footer { background:rgba(231,239,252,.7)!important; }
